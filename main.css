@@ -1,0 +1,81 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 60px;
+}
+
+header span {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 16px 36px rgba(139, 188, 192, 0.22);
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLNA2P736aNUiHQh4nY0clOjXwW5XMkuujA&s') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about h1 {
+  font-size: 70px;
+  line-height: 76px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.about button {
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin-top: 20px;
+}
+
+.about__info {
+  max-width: 550px;
+}
+
+#cat {
+  width: 100px;
+}
+
+#castle {
+  width: 500px;
+}
